@@ -1,0 +1,135 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .auth-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .auth-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group svg {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .visibility-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .auth-form button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-form button[type="submit"]:hover {
+    background-color: #ff5252;
+  }
+  
+  .social-login {
+    margin-top: 1.5rem;
+  }
+  
+  .social-login button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-login button svg {
+    margin-right: 0.5rem;
+  }
+  
+  .social-login .google {
+    background-color: #4285F4;
+    color: #fff;
+  }
+  
+  .social-login .github {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .auth-form p {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .auth-form a {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+  
+  .auth-image {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .auth-container {
+      justify-content: space-between;
+      padding: 2rem;
+    }
+  
+    .auth-image {
+      display: block;
+      flex: 1;
+      max-width: 50%;
+    }
+  
+    .auth-image img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }

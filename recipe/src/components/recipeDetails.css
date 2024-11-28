@@ -1,0 +1,83 @@
+.recipe-details-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .recipe-details {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 600px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #2c3e50;
+  }
+  
+  .recipe-details h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-details img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-details p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .recipe-details h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .recipe-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recipe-details li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .recipe-details .like-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recipe-details .like-button:hover {
+    background-color: #c0392b;
+  }
