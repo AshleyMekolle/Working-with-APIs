@@ -4,7 +4,7 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer';
 import WeatherApp from './components/WeatherApp.jsx';
 import Login from './auth/Login.jsx';
-import Signup from './auth/SignIn.jsx';
+import Signup from './auth/Signup.jsx';
 import './App.css';
 
 function App() {
