@@ -1,0 +1,122 @@
+.auth-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .input-group svg {
+    margin-right: 0.5rem;
+    color: #4CAF50;
+    font-size: 1.2rem;
+  }
+  
+  .input-group input {
+    flex-grow: 1;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: #ff3333;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .auth-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .auth-divider::before,
+  .auth-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .auth-divider span {
+    padding: 0 10px;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .social-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .google-btn,
+  .github-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .google-btn {
+    background-color: #db4437;
+  }
+  
+  .github-btn {
+    background-color: #333;
+  }
+  
+  .auth-switch {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .auth-switch a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .auth-switch a:hover {
+    text-decoration: underline;
+  }
+  
