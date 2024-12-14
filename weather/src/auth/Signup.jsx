@@ -4,7 +4,7 @@ import { FaUser, FaEnvelope, FaLock, FaGoogle, FaGithub } from 'react-icons/fa';
 import { createUserWithEmailAndPassword, signInWithPopup, GoogleAuthProvider, GithubAuthProvider, updateProfile } from 'firebase/auth';
 import { auth } from '../firebase';
 import { Link } from 'react-router-dom';
-import '../auth/Auth.css';
+import './Auth.css';
 
 function Signup() {
   const [name, setName] = useState('');
